@@ -7,11 +7,13 @@ this is my WeChat applet
 二、	数据来源
 该小程序数据来源均采用爬虫技术从当前主流的教育网站（中公教育）中获取，根据其每日一题中获取数据，并将其分类整理到该项目的数据库中。部分代码如下图所示，运行该代码即可在数据库中查到对应的题。
  
-图2.1 爬虫代码![image](https://user-images.githubusercontent.com/71813070/122633101-596a9480-d109-11eb-9c8e-8e4d7e7935a7.png)
+图2.1 爬虫代码
+![image](https://user-images.githubusercontent.com/71813070/122633101-596a9480-d109-11eb-9c8e-8e4d7e7935a7.png)
 
 
  
-图2.2 数据库对应题目![image](https://user-images.githubusercontent.com/71813070/122633098-57a0d100-d109-11eb-8f8c-75aaa7ce7c7d.png)
+图2.2 数据库对应题目
+![image](https://user-images.githubusercontent.com/71813070/122633098-57a0d100-d109-11eb-8f8c-75aaa7ce7c7d.png)
 
 三、	功能概括
 首先当用户首次进入小程序之后，由于小程序后台未记录到该用户的登录数据，所以该用户无法使用小程序所有功能，在其点击功能按钮的时候会弹框提示用户登录。在其正常登录之后，程序可正常使用。 
@@ -21,7 +23,8 @@ this is my WeChat applet
 	当用户进入刷题页面时，页面如图所示
  
 图3.2选择题页面
-	程序设置的是每次仅能做四题，做完之后点击查看解析会出现答案解析，并且此时用户作答数据会一并写入数据库中。答案解析中，正确答案用绿色做标记，用户的答案用红色做标记，以便区分。如图3.2-1所示。![image](https://user-images.githubusercontent.com/71813070/122633092-4ce63c00-d109-11eb-8d92-357960f989b1.png)
+	程序设置的是每次仅能做四题，做完之后点击查看解析会出现答案解析，并且此时用户作答数据会一并写入数据库中。答案解析中，正确答案用绿色做标记，用户的答案用红色做标记，以便区分。如图3.2-1所示。
+	![image](https://user-images.githubusercontent.com/71813070/122633092-4ce63c00-d109-11eb-8d92-357960f989b1.png)
 
  
 图3.2-2 答案解析
